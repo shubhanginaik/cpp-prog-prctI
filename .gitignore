@@ -1,0 +1,40 @@
+# Ignore build artifacts
+build/
+*.exe
+*.out
+*.app
+
+# Ignore object files and libraries
+*.o
+*.a
+*.so
+
+# Ignore generated files
+Makefile
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Ignore editor-specific files
+.vscode/
+*.vscode/
+*.vscode-*
+*.code-workspace
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore compiled headers
+*.gch
+
+# Ignore dependency files
+.dep/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore generated documentation
+doc/
+
+# Ignore any other specific files or directories based on your setup
